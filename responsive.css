@@ -1,0 +1,38 @@
+@media all and (max-width: 1000px) {
+  .top-content h1 {
+    font-size: 32px;
+  }
+  
+  .cards {
+    justify-content: center;
+  }
+
+  .card {
+    margin: 20px;
+  }
+
+}
+
+@media all and (max-width: 670px) {
+  .top-content {
+    text-align: left;
+  }
+
+  .header-left {
+    display: none;
+  }
+
+  .vidio {
+    width: 275;
+    height:200;
+  }
+}
+
+@media all and (max-width: 320px) {
+
+  .vidio {
+    width: 175;
+    height:100;
+    margin-top: 5px;
+  }
+}

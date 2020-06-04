@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.header-navigasi {
+  width: 100%;
+  height: 75px;
+  background-color: rgba(21, 55, 128, 0.884);
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+  color: seashell;
+  position: sticky;
+  top: 0;
+}
+
+.container {
+  /*max-width: 1076px;*/
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+ display: inline;
+}
+
+.logo-image {
+  height: 80px;
+  margin-top: 7.5px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  transition: all 0.5s;
+  background-color: rgba(7, 121, 167, 0.8);
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+  color: rgb(232, 240, 247);
+}
+
+.header-right a {
+  display: inline-block;
+  line-height: 75px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.top-content {
+  padding: 90px 0 100px 0;
+  background-image: url(topbackground.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+/*profil anggota */
+.cards{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: #dddd;
+  justify-content: center;
+  align-items: stretch;
+}
+.card {
+  width: 300px;
+  background-size: cover;
+  box-shadow: 1px 1px 4px black;
+  margin: 50px ;
+  border-radius: 10px;
+}
+
+.satu{
+  grid-column-start:2;
+  margin-left:-200px;
+}
+
+.dua{
+  margin-left:-160px;
+}
+
+.card .img img {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 120px;
+  height: 120px;
+  border: 5px solid white;
+  margin-top: -75px;
+  border-radius: 50%;
+  background-image: url(./aset/steven-roe-MYB2driCp2k-unsplash.jpg);
+  background-position: -34px 59px;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+
+.profile img:hover {
+  transform: scale(1.1);
+}
+
+.profile h6 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: grey;
+  letter-spacing: 4px;
+}
+
+.icons {
+  text-align: center;
+
+}
+
+.icons a {
+  text-decoration: none;
+  color: black;
+  margin: 20px 10px;
+  font-size: 20px;
+  display: inline-block;
+  transition: transform 0.6s;
+}
+
+.icons a:hover {
+  color: #543276;
+  transform: scale(1.5);
+}
+/* End profile anggota */
+
+/* Extra Video */
+.extra-video {
+  text-align: center;
+  padding: 40px;
+  background-color: #ddd;
+  margin: 5px;
+  border-radius:10px; 
+}
+
+.vidio {
+  width:560; 
+  height:315;
+}
+/* End Extra Video */
+
+.contact-form {
+  text-align: center;
+  padding: 20px;
+  background-color: #ddd;
+}
+
+
+footer {
+
+    background-color: rgb(21, 55, 128, 0.884);
+    color: white;
+    text-align: center;
+    bottom: 0;
+       
+}
+
+footer img {
+    padding-top: 15px;
+    width: 180px;
+}
+
+footer p {
+    color: #cac6cc;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
